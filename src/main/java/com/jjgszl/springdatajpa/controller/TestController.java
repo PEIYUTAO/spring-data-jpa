@@ -8,6 +8,6 @@ public class TestController {
     @GetMapping("/test")
     public String queryUserByNameUseJPQL(Integer id){
         System.out.println("webhook test");
-        return "last commitddddd111";
+        return "last ";
     }
 }
